@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPage from './MainPage';
+import { Link } from 'react-router-dom';
 
 function WelcomePage() {
     return (
@@ -10,9 +10,9 @@ function WelcomePage() {
                 This tool helps you update the medicine on completion.
             </p>
             <div className="mt-8">
-                <a href="" className="px-6 py-3 text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-200 hover:shadow-lg">
+                <Link to="/main" className="px-6 py-3 text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-500 hover:shadow-lg">
                     Get Started <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
+                </Link>
             </div>
         </div>
     </>
