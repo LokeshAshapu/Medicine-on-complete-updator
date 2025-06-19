@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom';
 function NavBar() {
-  return (
+    return (
     <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-lg font-bold">MyApp</a>
-        <div>
-          <a href="/about" className="text-gray-300 hover:text-white px-3 py-2">About</a>
-          <a href="/contact" className="text-gray-300 hover:text-white px-3 py-2">Contact</a>
+        <div className="container mx-auto flex justify-between items-center">
+        <Link to="/main" className="text-white text-lg font-bold">MyApp</Link>
+            <div>
+                <Link to="/about" className="text-gray-300 hover:text-white px-3 py-2">About</Link>
+                <Link to="/contact" className="text-gray-300 hover:text-white px-3 py-2">Contact</Link>
+            </div>
         </div>
-      </div>
-    </nav>
-  );
+        </nav>
+    );
 }
 export default NavBar;
