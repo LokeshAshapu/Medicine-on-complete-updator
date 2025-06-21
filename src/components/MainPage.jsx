@@ -90,12 +90,13 @@ function MainPage(){
                         <h2 className='text-xl font-bold mb-2'>Ophthalmology</h2>
                         <p className='text-gray-700'>Ophthalmology is the branch of medicine and surgery that is concerned with the diagnosis and treatment of eye disorders.</p>
                     </div>
-                    <div className='bg-white p-4 rounded-lg mt-6 col-span-3 '>
-                        <h2 className='text-2xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
-                        <p className='text-gray-700 text-center'>
+                    
+                </div>
+                <div className='bg-white p-4 rounded-lg mt-6 col-span-3 '>
+                    <h2 className='text-2xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
+                    <p className='text-gray-700 text-center'>
                             This project is a comprehensive directory of medical specialities, designed to help users quickly understand the various branches of medicine. Each speciality card provides a brief description, making it easier for students, professionals, and patients to explore and learn about different fields in healthcare. And from this page, you can navigate to the <a href="/about" className="text-indigo-600 hover:underline">About Us</a> page to learn more about the project and its creators.
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
