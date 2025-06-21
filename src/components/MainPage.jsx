@@ -8,7 +8,7 @@ function MainPage(){
         <div>
             <NavBar />
             <div className="flex flex-col items-center justify-center p-10 bg-white">
-                <h1 className='text-4xl font-bold text-indigo-600'>Medical Specialities</h1>
+                <h1 className='text-4xl font-bold text-indigo-600 mb-3'>Medical Specialities</h1>
                 <div className='grid grid-cols-3 gap-6 p-3 md:grid-cols-1  lg:grid-cols-2 xl:grid-cols-3'>
                     <div className='bg-blue-100 p-4 rounded-lg shadow-md'>
                         <h2 className='text-xl font-bold mb-2'>Cardiology</h2>
@@ -89,6 +89,12 @@ function MainPage(){
                     <div className='bg-zinc-100 p-4 rounded-lg shadow-md'>
                         <h2 className='text-xl font-bold mb-2'>Ophthalmology</h2>
                         <p className='text-gray-700'>Ophthalmology is the branch of medicine and surgery that is concerned with the diagnosis and treatment of eye disorders.</p>
+                    </div>
+                    <div className='bg-white p-4 rounded-lg mt-6 col-span-3 '>
+                        <h2 className='text-2xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
+                        <p className='text-gray-700 text-center'>
+                            This project is a comprehensive directory of medical specialities, designed to help users quickly understand the various branches of medicine. Each speciality card provides a brief description, making it easier for students, professionals, and patients to explore and learn about different fields in healthcare. And from this page, you can navigate to the <a href="/about" className="text-indigo-600 hover:underline">About Us</a> page to learn more about the project and its creators.
+                        </p>
                     </div>
                 </div>
             </div>

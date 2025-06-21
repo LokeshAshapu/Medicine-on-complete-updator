@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MedicalFooter = () => {
   return (
@@ -24,9 +25,7 @@ const MedicalFooter = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">Support</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:underline">Help Center</a></li>
-            <li><a href="#" className="hover:underline">Contact Pharmacist</a></li>
-            <li><a href="#" className="hover:underline">FAQ</a></li>
+            <li><Link to="/contact" className="hover:underline">Help Center</Link></li>
           </ul>
         </div>
 

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 function NavBar() {
     return (
-    <nav className="bg-gray-800 p-6 shadow-md">
+    <nav className="bg-gray-800 p-6 shadow-md sticky top-0 z-50 transition-all  text-white">
         <div className="container mx-auto flex justify-between items-center">
         <Link to="/main" className="text-white text-lg font-bold">MediTrack</Link>
             <div>
