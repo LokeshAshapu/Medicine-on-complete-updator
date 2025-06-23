@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 function AboutPage() {
     return (
-    <div className="about-page">
+    <div className="flex items-center justify-center flex-col">
         <NavBar />
-        <h1>About Us</h1>
+        <h1 className="font-bold">About Us</h1>
         <p>Welcome to our application! We are dedicated to providing the best service possible.</p>
         <p>Our team is committed to continuous improvement and innovation.</p>
         <p>Thank you for choosing us!</p>
