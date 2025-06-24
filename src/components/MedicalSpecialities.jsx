@@ -117,28 +117,37 @@ function MedicalSpecialities() {
     ]
     return (
         <>
-    <div className='bg-white h-full'>
-        <NavBar />
-        <div className="flex flex-col items-center justify-center p-10">
-                <h1 className='text-3xl font-bold text-indigo-600 mb-3'>Medical Specialities</h1>
-                <div className='grid grid-cols-3 gap-6 p-3 md:grid-cols-1  lg:grid-cols-2 xl:grid-cols-3'>
-                    {Spacalities.map((speciality) => (
-                        <div key={speciality.id} className='bg-slate-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'>
-                            <h2 className='text-xl font-semibold text-black mb-2'>{speciality.name}</h2>
-                            <p className='text-gray-600'>{speciality.description}</p>
-                            {speciality.render_to && (
-                                <a href={speciality.render_to} target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline mt-2 inline-block'>
-                                    Watch Video
-                                </a>
-                            )}
-                        </div>
-                    ))}
+            <div className='bg-white min-h-screen w-full'>
+                <NavBar />
+                <div className="flex flex-col items-center justify-center px-4 py-8 sm:px-6 md:px-10">
+                    <h1 className='text-2xl sm:text-3xl font-bold text-indigo-600 mb-6 text-center'>Medical Specialities</h1>
+
+                    <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl'>
+                        {Spacalities.map((speciality) => (
+                            <div
+                                key={speciality.id}
+                                className='bg-slate-100 p-4 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300'
+                            >
+                                <h2 className='text-lg sm:text-xl font-semibold text-black mb-2'>{speciality.name}</h2>
+                                <p className='text-sm sm:text-base text-gray-600'>{speciality.description}</p>
+                                {speciality.render_to && (
+                                    <a
+                                        href={speciality.render_to}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className='text-blue-600 hover:underline mt-2 inline-block text-sm sm:text-base'
+                                    >
+                                        Watch Video
+                                    </a>
+                                )}
+                            </div>
+                        ))}
+                    </div>
                 </div>
-        
-    </div>
-    <MedicalFooter />
-    </div>
-    </>
+                <MedicalFooter />
+            </div>
+        </>
     );
-    }
+}
+
 export default MedicalSpecialities;
