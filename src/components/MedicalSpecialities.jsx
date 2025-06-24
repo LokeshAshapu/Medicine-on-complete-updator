@@ -116,9 +116,10 @@ function MedicalSpecialities() {
         }
     ]
     return (
-    <div>
+        <>
+    <div className='bg-white h-full'>
         <NavBar />
-        <div className="flex flex-col items-center justify-center p-10 bg-white">
+        <div className="flex flex-col items-center justify-center p-10">
                 <h1 className='text-3xl font-bold text-indigo-600 mb-3'>Medical Specialities</h1>
                 <div className='grid grid-cols-3 gap-6 p-3 md:grid-cols-1  lg:grid-cols-2 xl:grid-cols-3'>
                     {Spacalities.map((speciality) => (
@@ -137,6 +138,7 @@ function MedicalSpecialities() {
     </div>
     <MedicalFooter />
     </div>
+    </>
     );
     }
 export default MedicalSpecialities;

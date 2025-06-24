@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MedicalFooter = () => {
   return (
-    <footer className="bg-blue-950 text-white">
+    <footer className="bg-blue-950 text-white bottom-0 w-full  mt-10">
       <div className="max-w-7xl mx-auto w-full px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">About MediTrack</h3>
@@ -15,7 +15,7 @@ const MedicalFooter = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">Features</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:underline">Medicine Tracker</a></li>
+            <li><Link to="/tracker" className="hover:underline">Medicine Tracker</Link></li>
           </ul>
         </div>
 
