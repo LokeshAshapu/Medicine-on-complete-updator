@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MedicalFooter = () => {
   return (
     <footer className="bg-blue-950 text-white">
-      <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto w-full px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">About MediTrack</h3>
           <p className="text-sm">
@@ -16,9 +16,6 @@ const MedicalFooter = () => {
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">Features</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#" className="hover:underline">Medicine Tracker</a></li>
-            <li><a href="#" className="hover:underline">Auto Reminders</a></li>
-            <li><a href="#" className="hover:underline">Doctor Notifications</a></li>
-            <li><a href="#" className="hover:underline">Health Dashboard</a></li>
           </ul>
         </div>
 
@@ -31,17 +28,15 @@ const MedicalFooter = () => {
 
         <div>
           <h3 className="text-lg font-semibold mb-3 border-b border-white pb-1">Contact</h3>
-          <p className="text-sm">123 MediCare Blvd, Health City</p>
-          <p className="text-sm mt-1">Email: support@meditrack.com</p>
-          <p className="text-sm">Phone: +1 (800) 456-9876</p>
+          <p className="text-sm">Srikakulam , Andhra Pradesh , 532407</p>
+          <p className="text-sm mt-1">Email: teamconverge@gmail.com</p>
+          <p className="text-sm">Phone: +91 6301451462</p>
         </div>
       </div>
 
 
       <div className="border-t border-white/20 text-center py-4 text-sm">
-        © {new Date().getFullYear()} MediTrack. All rights reserved. |
-        <a href="#" className="ml-2 text-blue-300 hover:underline">Privacy Policy</a> |
-        <a href="#" className="ml-2 text-blue-300 hover:underline">Terms & Conditions</a>
+        © {new Date().getFullYear()} MediTrack. All rights reserved.
       </div>
     </footer>
   );
