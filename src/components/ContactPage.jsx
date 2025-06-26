@@ -14,26 +14,24 @@ function ContactPage(){
                     </p>
                 </div>
                 <div className='flex flex-col items-center mt-10 p-6 max-w-lg mx-auto border border-gray-300 rounded-lg shadow-lg bg-white'>
-  <form
-    className='w-full space-y-4'
-    action="https://formsubmit.co/lokeshashapu@gmail.com"
-    method="POST"
-  >
-    {/* Hides FormSubmit CAPTCHA */}
-    <input type="hidden" name="_captcha" value="false" />
-    {/* Redirect to thank you page after submission (optional) */}
-    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
-
-    <div>
-      <label htmlFor="email" className='block text-sm font-medium text-gray-700 mb-1'>Email</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder='Enter your email...'
-        required
-        className='p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full'
-      />
+                    <form
+                        className='w-full space-y-4'
+                        action="https://formsubmit.co/lokeshashapu@gmail.com"
+                        method="POST"
+                        >
+                            <input type="hidden" name="_captcha" value="false" />
+                            {/* Redirect to thank you page after submission (optional) */}
+                            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+                            <div>
+                                <label htmlFor="email" className='block text-sm font-medium text-gray-700 mb-1'>Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder='Enter your email...'
+                                    required
+                                    className='p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full'
+                                />
     </div>
 
     <div>
