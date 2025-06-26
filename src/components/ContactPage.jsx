@@ -32,31 +32,28 @@ function ContactPage(){
                                     required
                                     className='p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full'
                                 />
-    </div>
-
-    <div>
-      <label htmlFor="message" className='block text-sm font-medium text-gray-700 mb-1'>Message</label>
-      <textarea
-        id="message"
-        name="message"
-        rows="6"
-        placeholder='Type your message here...'
-        required
-        className='p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full'
-      ></textarea>
-    </div>
-
-    <div className='flex justify-center'>
-      <button
-        type="submit"
-        className='bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 duration-200 transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed'
-      >
-        Send Message
-      </button>
-    </div>
-  </form>
-</div>
-
+                            </div>
+                            <div>
+                                <label htmlFor="message" className='block text-sm font-medium text-gray-700 mb-1'>Message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="6"
+                                    placeholder='Type your message here...'
+                                    required
+                                    className='p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full'
+                                ></textarea>
+                            </div>
+                            <div className='flex justify-center'>
+                                <button
+                                    type="submit"
+                                    className='bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 duration-200 transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed'
+                                    disabled={false} >
+                                        Send Message
+                                </button>
+                            </div>
+                    </form>
+                </div>
             </div>
             < MedicalFooter />
         </div>
