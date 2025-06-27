@@ -28,14 +28,14 @@ function MainPage(){
                     </div>
                     <div className='p-6 flex gap-6 mt-10 flex-col md:flex-row lg:flex-row items-center justify-between'>
                         <img src="src\assets\dosage_limit.png" alt="dosage_limit" className='rounded-lg shadow-2xl'/>
-                        <div className='flex gap-5 flex-col md:mb-5'>
-                            <p className='text-gray-700 text-start mr-5'>
+                        <div className='flex flex-col mt-3 md:mb-5'>
+                            <p className='text-gray-700 text-start mr-5 mb-3'>
                                 <span className='font-bold'>Medical Alert Scheduler</span> is a simple yet powerful web-based reminder system designed to help individuals manage their daily medication or health-related tasks effectively. Our goal is to ensure that no dose or important medical task is ever missed.
                             </p>
-                            <p className='text-gray-700 text-start mr-5'>
+                            <p className='text-gray-700 text-start mr-5 mb-3'>
                                 This platform allows users to <span className='font-bold'>set daily alerts</span> at specific times, providing a convenient way to stay on track with medications, health checks, or doctor consultations. Once a time is scheduled, the system will automatically send out reminders each day — keeping health routines consistent and on time.
                             </p>
-                            <p className='text-gray-700 text-start mr-5'>Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.</p>
+                            <p className='text-gray-700 text-start mr-5 '>Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.</p>
                         </div>
                     </div>
                 </div>
