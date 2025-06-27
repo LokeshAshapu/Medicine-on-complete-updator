@@ -24,12 +24,11 @@ function MainPage(){
                             <li>Responsive design for all devices</li>
                         </ul>
                     </div>
-                    <div className='mt-5 p-6 bg-gray-100 rounded-lg shadow-lg'>
-                        <p>Medical Alert Scheduler is a simple yet powerful web-based reminder system designed to help individuals manage their daily medication or health-related tasks effectively. Our goal is to ensure that no dose or important medical task is ever missed. <br />
-
-This platform allows users to set daily alerts at specific times, providing a convenient way to stay on track with medications, health checks, or doctor consultations. Once a time is scheduled, the system will automatically send out reminders each day — keeping health routines consistent and on time.<br/>
-
-Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.</p>
+                    <div className='mt-5 p-6'>
+                        <p className='text-indigo-400'>Medical Alert Scheduler is a simple yet powerful web-based reminder system designed to help individuals manage their daily medication or health-related tasks effectively. Our goal is to ensure that no dose or important medical task is ever missed. <br />
+                                This platform allows users to set daily alerts at specific times, providing a convenient way to stay on track with medications, health checks, or doctor consultations. Once a time is scheduled, the system will automatically send out reminders each day — keeping health routines consistent and on time.<br/>
+                                Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.
+                        </p>
                     </div>
                 </div>
             <MadicalFooter/>
