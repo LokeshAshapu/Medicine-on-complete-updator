@@ -10,9 +10,21 @@ function MainPage(){
                 <div className=' p-10 mt-6 flex-col items-center '>
                     <h2 className='text-3xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
                     <div className='flex items-center p-3 sm:flex-col md:flex-col lg:flex-row'>
-                        <p className='text-gray-700 text-center mr-5'>
-                            This project is a comprehensive directory of medical specialities, designed to help users quickly understand the various branches of medicine. Each speciality card provides a brief description, making it easier for students, professionals, and patients to explore and learn about different fields in healthcare.
-                        </p>
+                        <div className='flex flex-col gap-3 md:mb-5'>
+                            <p className='text-gray-700 text-start mr-5'>
+                                This project is a <span className='font-bold'>comprehensive and user-friendly directory of medical specialities,</span>  developed to help users easily explore and understand the diverse branches of modern medicine.
+                            </p>
+                            <p className='text-gray-700 text-start mr-5'>
+                                Each speciality is presented in an intuitive card format, offering <span className='font-bold'>concise yet informative descriptions</span> that make learning accessible to everyone — whether you're a medical student, healthcare professional, or a patient seeking clarity about your treatment options.
+                            </p>
+                            <p className='text-gray-700 text-start mr-5 '>
+                                Our goal is to <span className='font-bold'>simplify complex medical information</span> and present it in a visually organized manner. By bridging the gap between <br /> medical knowledge and public understanding, this platform serves as an educational tool, a reference guide, and a first step toward informed healthcare decisions.
+                            </p>
+                            <p className='text-gray-700 text-start mr-5'>
+                                Explore the fields of cardiology, neurology, orthopedics, psychiatry, and many more — all in one place.
+                            </p>
+                        </div>
+                        
                         <img src="src\assets\medicine.png" alt="Medicine" width="30%" className='rounded-lg shadow-2xl md:mt-5'/>
                     </div>
                     <div className='mt-5 p-6 flex gap-6'>
