@@ -9,7 +9,8 @@ function MainPage(){
             <NavBar />
                 <div className=' p-10 mt-6 flex-col items-center '>
                     <h2 className='text-3xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
-                    <div className='flex items-center p-3 sm:flex-col md:flex-col lg:flex-row'>
+                    <div className='p-6 flex gap-6 mt-10 flex-col md:flex-row  lg:flex-row-reverse items-center justify-between'>
+                        <img src="src\assets\medicine.png" alt="Medicine" className='rounded-lg shadow-2xl md:mt-5 lg:w-100'/>
                         <div className='flex flex-col gap-3 md:mb-5'>
                             <p className='text-gray-700 text-start mr-5'>
                                 This project is a <span className='font-bold'>comprehensive and user-friendly directory of medical specialities,</span>  developed to help users easily explore and understand the diverse branches of modern medicine.
@@ -24,10 +25,8 @@ function MainPage(){
                                 Explore the fields of cardiology, neurology, orthopedics, psychiatry, and many more — all in one place.
                             </p>
                         </div>
-                        
-                        <img src="src\assets\medicine.png" alt="Medicine" width="30%" className='rounded-lg shadow-2xl md:mt-5'/>
                     </div>
-                    <div className='mt-5 p-6 flex gap-6'>
+                    <div className='p-6 flex gap-6 mt-10 flex-col md:flex-row lg:flex-row items-center justify-between'>
                         <img src="src\assets\dosage_limit.png" alt="dosage_limit" className='rounded-lg shadow-2xl md:mb-5'/>
                         <div className='flex gap-5 flex-col'>
                             <p>
