@@ -6,11 +6,11 @@ function MainPage() {
     return (
         <div className="bg-white min-h-screen">
             <NavBar />
-            <div className="max-w-6xl mx-auto px-4 py-10">
+            <div className="max-w-6xl mx-auto px-4 py-15">
                 <h2 className="text-4xl font-bold mb-8 text-center text-indigo-700">
                     About This Project
                 </h2>
-                <div className="flex flex-col-reverse md:flex-row items-center gap-10 mb-16">
+                <div className="flex flex-col-reverse md:flex-row items-center gap-10 mb-16 mt-15">
                     <div className="flex flex-col gap-4 md:w-1/2">
                         <p className="text-gray-700 leading-relaxed">
                             This project is a <span className="font-bold">comprehensive and user-friendly directory of medical specialities</span>, developed to help users easily explore and understand the diverse branches of modern medicine.
@@ -31,7 +31,7 @@ function MainPage() {
                         className="rounded-xl shadow-2xl w-full md:w-1/2"
                     />
                 </div>
-                <div className="flex flex-col md:flex-row items-center gap-10">
+                <div className="flex flex-col md:flex-row items-center gap-10 mt-21">
                     <img
                         src="src/assets/dosage_limit.png"
                         alt="Dosage Limit"
