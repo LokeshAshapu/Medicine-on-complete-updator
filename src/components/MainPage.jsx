@@ -10,8 +10,6 @@ function MainPage() {
                 <h2 className="text-4xl font-bold mb-8 text-center text-indigo-700">
                     About This Project
                 </h2>
-
-                {/* Section 1 */}
                 <div className="flex flex-col-reverse md:flex-row items-center gap-10 mb-16">
                     <div className="flex flex-col gap-4 md:w-1/2">
                         <p className="text-gray-700 leading-relaxed">
@@ -33,8 +31,6 @@ function MainPage() {
                         className="rounded-xl shadow-2xl w-full md:w-1/2"
                     />
                 </div>
-
-                {/* Section 2 */}
                 <div className="flex flex-col md:flex-row items-center gap-10">
                     <img
                         src="src/assets/dosage_limit.png"
