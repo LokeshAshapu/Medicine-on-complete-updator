@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Router>
+            <ScrollToTop />
             <Routes>
                 <Route path="/main" element={<MainPage />} />
                 <Route path="/medical" element={<MedicalSpecialities />} />
