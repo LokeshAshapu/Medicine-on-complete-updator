@@ -5,6 +5,7 @@ import MainPage from './components/MainPage';
 import MedicalSpecialities from './components/MedicalSpecialities';
 import ContactPage from './components/ContactPage';
 import Tracker from './components/Tracker';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
 
   return (
