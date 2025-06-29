@@ -2,47 +2,61 @@ import React from 'react';
 import NavBar from './NavBar';
 import MadicalFooter from './MedicalFooter';
 
-function MainPage(){
+function MainPage() {
     return (
-        <>
-        <div className='bg-white'>
+        <div className="bg-white min-h-screen">
             <NavBar />
-                <div className=' p-10 mt-6 flex-col items-center '>
-                    <h2 className='text-3xl font-bold mb-2 text-center text-indigo-700'>About This Project</h2>
-                    <div className='p-6 flex gap-6 mt-10 flex-col md:flex-row  lg:flex-row items-center justify-between'>
-                        <img src="src\assets\medicine.png" alt="Medicine" className='rounded-lg shadow-2xl md:mt-5 lg:w-100 order-1 md:order-2'/>
-                        <div className='flex flex-col gap-3 md:mb-5'>
-                            <p className='text-gray-700 text-start mr-5'>
-                                This project is a <span className='font-bold'>comprehensive and user-friendly directory of medical specialities,</span>  developed to help users easily explore and understand the diverse branches of modern medicine.
-                            </p>
-                            <p className='text-gray-700 text-start mr-5'>
-                                Each speciality is presented in an intuitive card format, offering <span className='font-bold'>concise yet informative descriptions</span> that make learning accessible to everyone — whether you're a medical student, healthcare professional, or a patient seeking clarity about your treatment options.
-                            </p>
-                            <p className='text-gray-700 text-start mr-5 '>
-                                Our goal is to <span className='font-bold'>simplify complex medical information</span> and present it in a visually organized manner. By bridging the gap between <br /> medical knowledge and public understanding, this platform serves as an educational tool, a reference guide, and a first step toward informed healthcare decisions.
-                            </p>
-                            <p className='text-gray-700 text-start mr-5'>
-                                Explore the fields of cardiology, neurology, orthopedics, psychiatry, and many more — all in one place.
-                            </p>
-                        </div>
+            <div className="max-w-6xl mx-auto px-4 py-10">
+                <h2 className="text-4xl font-bold mb-8 text-center text-indigo-700">
+                    About This Project
+                </h2>
+
+                {/* Section 1 */}
+                <div className="flex flex-col-reverse md:flex-row items-center gap-10 mb-16">
+                    <div className="flex flex-col gap-4 md:w-1/2">
+                        <p className="text-gray-700 leading-relaxed">
+                            This project is a <span className="font-bold">comprehensive and user-friendly directory of medical specialities</span>, developed to help users easily explore and understand the diverse branches of modern medicine.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            Each speciality is presented in an intuitive card format, offering <span className="font-bold">concise yet informative descriptions</span> that make learning accessible to everyone — whether you're a medical student, healthcare professional, or a patient seeking clarity about your treatment options.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            Our goal is to <span className="font-bold">simplify complex medical information</span> and present it in a visually organized manner. By bridging the gap between medical knowledge and public understanding, this platform serves as an educational tool, a reference guide, and a first step toward informed healthcare decisions.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            Explore the fields of cardiology, neurology, orthopedics, psychiatry, and many more — all in one place.
+                        </p>
                     </div>
-                    <div className='p-6 flex gap-6 mt-10 flex-col md:flex-row lg:flex-row items-center justify-between'>
-                        <img src="src\assets\dosage_limit.png" alt="dosage_limit" className='rounded-lg shadow-2xl'/>
-                        <div className='flex flex-col mt-3 md:mb-5'>
-                            <p className='text-gray-700 text-start mr-5 mb-3'>
-                                <span className='font-bold'>Medical Alert Scheduler</span> is a simple yet powerful web-based reminder system designed to help individuals manage their daily medication or health-related tasks effectively. Our goal is to ensure that no dose or important medical task is ever missed.
-                            </p>
-                            <p className='text-gray-700 text-start mr-5 mb-3'>
-                                This platform allows users to <span className='font-bold'>set daily alerts</span> at specific times, providing a convenient way to stay on track with medications, health checks, or doctor consultations. Once a time is scheduled, the system will automatically send out reminders each day — keeping health routines consistent and on time.
-                            </p>
-                            <p className='text-gray-700 text-start mr-5 '>Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.</p>
-                        </div>
+                    <img
+                        src="src/assets/medicine.png"
+                        alt="Medicine"
+                        className="rounded-xl shadow-2xl w-full md:w-1/2"
+                    />
+                </div>
+
+                {/* Section 2 */}
+                <div className="flex flex-col md:flex-row items-center gap-10">
+                    <img
+                        src="src/assets/dosage_limit.png"
+                        alt="Dosage Limit"
+                        className="rounded-xl shadow-2xl w-full md:w-1/2"
+                    />
+                    <div className="flex flex-col gap-4 md:w-1/2">
+                        <p className="text-gray-700 leading-relaxed">
+                            <span className="font-bold">Medical Alert Scheduler</span> is a simple yet powerful web-based reminder system designed to help individuals manage their daily medication or health-related tasks effectively. Our goal is to ensure that no dose or important medical task is ever missed.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            This platform allows users to <span className="font-bold">set daily alerts</span> at specific times, providing a convenient way to stay on track with medications, health checks, or doctor consultations. Once a time is scheduled, the system will automatically send out reminders each day — keeping health routines consistent and on time.
+                        </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            Whether you're managing your own health or caring for a loved one, this tool can play a crucial role in promoting regularity, safety, and peace of mind.
+                        </p>
                     </div>
                 </div>
-            <MadicalFooter/>
+            </div>
+            <MadicalFooter />
         </div>
-        </>
-    )
+    );
 }
 
 export default MainPage;
