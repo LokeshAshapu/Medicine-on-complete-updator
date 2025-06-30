@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 ## Styling through
    tailwind css to style the website in addition to the react js to attract the users and enhancing my tailwind skills by developing this incredible project
 
+
+
+
+## This is front end only
