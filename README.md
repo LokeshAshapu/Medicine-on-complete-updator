@@ -13,4 +13,4 @@ Currently, two official plugins are available:
 
 
 
-## This is front end only
+## This is front-end only
